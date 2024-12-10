@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 class Main {
     public static void main(String[] args) throws IOException {
-        Path examplePath = Paths.get("1","example.txt");
-        Path inputPath = Paths.get("1", "input.txt");
+        Path examplePath = Paths.get("2024","1","example.txt");
+        Path inputPath = Paths.get("2024","1", "input.txt");
 
         partOne(examplePath);
         partOne(inputPath);
